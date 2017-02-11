@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+.header {
+	background-color: #777;
+	color: white;
+	display: block;
+	padding-top: 20px;
+	height: 380px;
+}
+.menu,
+.highlight,
+.columns,
+.row,
+.footer {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 500px;
+}
+.menu {
+	display: block;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #222;
+}
+.header .menu .menu_left{
+	display: inline-block;
+	float: left;
+	color: #979797;
+	font-size: 14pt;
+	padding: 14px 15px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #222;
+}
+.header .menu .menu_right a {
+ 	display: inline-block;
+ 	float: left;
+ 	padding: 17px 15px;
+ 	color: #979797;
+ 	background-color: #222;
+	font-size: 11pt;
+	text-decoration: none;
+}
+.header .menu .menu_right a:hover { 	
+ 	color: white;
+ 	background-color: black;
+}
+.highlight {
+	display:  block;
+	text-align: center;
+	padding-top: 120px;
+}
+.highlight h2 {
+	margin: 0;
+	font-size: 26px;
+	font-weight: normal;
+	text-shadow: 0px 1px 0px black;
+}
+.highlight h2+p {
+	padding: 0 8%;
+	font-size: 14px;
+	text-shadow: 0px 1px 0px black;
+}
+.highlight a {
+	display: inline-block;
+	margin-top: 5px;
+	color: white;
+	background-color: #337ab7;
+	padding: 10px 15px;
+	font-size: 13pt;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.columns {
+	height:551px;
+}
+.heading {
+	width: 33.333%;
+	color: #5a5a5a;
+	font-size: 10pt;
+	display: inline-block;
+	float:left;
+	text-align: center;
+	padding: 60px 0;
+}
+.heading h3 {
+	font-weight: normal;
+	font-size: 18pt;
+	color: #5a5a5a;
+}
+.heading p {
+	padding: 0 1.5% 10px 1.5%;
+	line-height: 1.5;
+}
+.heading a {	
+	padding: 9px 11px;
+	color: #5a5a5a;
+	border-radius: 5px;
+	border: 1px black solid;
+	text-decoration: none;
+}
+.row {
+	display:block;
+	height: 250px;
+	padding: 45px 0px 30px 0px;
+}
+.row .description,
+.row img {
+	display: inline-block;
+	float-left;
+	width:auto;
+	margin: 0;
+	padding:0;
+}
+.row .description {
+	max-width: 68%;
+	vertical-align: top;
+}
+.footer {
+ 	padding: 90px 0 55px 0;
+ 	border-top: 1px #aaa solid;
+}
+.footer a{
+	text-decoration: none;
+	color: #337ab7;
+}
